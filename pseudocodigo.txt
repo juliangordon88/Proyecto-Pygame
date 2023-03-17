@@ -1,0 +1,15 @@
+Crear una clase Jugador:
+que se pueda mover arriba y abajo
+que empieze en el margen izquierdo
+de la pantalla en el centro vertical 
+Cuando llegue arriba o abajo, se parará, 
+no saldra por la pantalla. 
+el jugador tendra 3 vidas
+
+Crear una clase obstaculo:
+que sera un sprite, con diferentes tipos y tamaños
+en alturas aleatorias en el margen derecho de
+la pantalla
+cuando alguno de estos obstaculos choque con la
+nave, hara una explosion y se perdera una vida.
+
