@@ -36,3 +36,6 @@ class Portada(Escena):
             self.pantalla.fill((15, 15, 15))
             pygame.display.flip()
         return False
+    
+class Partida(Escena):
+    pass
