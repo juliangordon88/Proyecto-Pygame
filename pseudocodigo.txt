@@ -13,3 +13,5 @@ la pantalla
 cuando alguno de estos obstaculos choque con la
 nave, hara una explosion y se perdera una vida.
 
+
+Crear clase TheQuest
