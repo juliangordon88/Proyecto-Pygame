@@ -11,7 +11,7 @@ que sera un sprite, con diferentes tipos y tamaños
 en alturas aleatorias en el margen derecho de
 la pantalla
 cuando alguno de estos obstaculos choque con la
-nave, hara una explosion y se perdera una vida.
+nave (collidirect), hara una explosion y se perdera una vida.
 
 
 Crear clase TheQuest
