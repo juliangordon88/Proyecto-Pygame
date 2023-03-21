@@ -19,9 +19,9 @@ class Portada(Escena):
     def __init__(self, pantalla):
         super().__init__(pantalla)
 
-        ruta = os.path.join()
-        self.logo = pygame.image.load(ruta)
-        ruta_tipo = os.path.join()
+        ruta = os.path.join("resources", "fondo-nocturna-galaxia.jpg")
+        self.fondo = pygame.image.load(ruta)
+        ruta_tipo = os.path.join("resources", "CabinSketch-Bold.ttf")
         self.tipografia = pygame.font.Font(ruta_tipo, 28)
 
     def bucle_principal(self):
