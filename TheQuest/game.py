@@ -1,7 +1,7 @@
 import os
 import pygame 
 from . import ALTO, ANCHO
-from .escenas import Portada, Partida
+from .escenas import Portada, Partida, MejoresJugadores
 
 class TheQuest:
     def __init__(self):
