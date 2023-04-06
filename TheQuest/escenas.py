@@ -19,7 +19,7 @@ class Portada(Escena):
     def __init__(self, pantalla: pygame.Surface):
         super().__init__(pantalla)
 
-        ruta = os.path.join("resources", "fondo-nocturna-galaxia.jpg")
+        ruta = os.path.join("resources","imagenes", "fondo-nocturna-galaxia.jpg")
         self.fondo = pygame.image.load(ruta)
         ruta_tipog = os.path.join("resources", "CabinSketch-Bold.ttf")
         self.tipografia = pygame.font.Font(ruta_tipog, 28)

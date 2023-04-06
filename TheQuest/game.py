@@ -7,11 +7,11 @@ class TheQuest:
     def __init__(self):
         pygame.init()
         self.pantalla = pygame.display.set_mode((ANCHO, ALTO))
-        pygame.display.set_caption()
+        pygame.display.set_caption("THE QUEST")
 
         # Windows: resources\images\icon.png
         # Mac/Linux: resources/images/icon.png
-        ruta = os.path.join("resources", "fondo-nocturna-galaxia.jpg")
+        ruta = os.path.join("TheQuest", "resources", "imagenes", "fondo-nocturna-galaxia.jpg")
         icono = pygame.image.load(ruta)
         pygame.display.set_icon(icono)
 
